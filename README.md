@@ -12,7 +12,7 @@ Inheritance is one of the most important feature of _Object Oriented Programming
 
 Consider a group of Vehicles. You need to create classes for Bus, Car and Truck. The methods **fuelAmount()**, **capacity()** and **applyBrakes()** will be same for all of the three classes. If we create these classes avoiding inheritance than we have to write all of these functions in each of the three classes.
 
-This process resutls in the duplication of same code 3 times.
+This process results in the duplication of same code 3 times.
 
 This increases the chances of error and data redundancy.
 
@@ -76,7 +76,7 @@ class C : protected A
     // z is not accessible
 };
 
-class D : protected A
+class D : private A
 {
     // x is private
     // y is private
